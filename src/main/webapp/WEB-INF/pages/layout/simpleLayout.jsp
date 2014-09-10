@@ -4,7 +4,10 @@
     
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootswatch/3.1.1/yeti/bootstrap.min.css">       
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootswatch/3.1.1/yeti/bootstrap.min.css">    
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    
     <title>Principal</title>
     <style type="text/css">
     body {
@@ -37,20 +40,9 @@
         float:left;
     }
  
-    .body {
-        margin:50px 10px 0px 250px;
-    }
+
      
-    .footer {
-        clear:both;
-        position:absolute;
-        bottom:0;
-        left:0;
-        text-align:center;
-        width:100%;
-        height:20px;
-    }
-     
+
     </style>
 </head>
 <body>

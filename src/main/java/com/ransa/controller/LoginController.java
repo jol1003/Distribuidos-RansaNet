@@ -16,17 +16,26 @@ import org.springframework.web.servlet.ModelAndView;
  * @author NP375105
  */
 @Controller
-public class LoginController{
+public class LoginController {
 
     @RequestMapping("login")
     public ModelAndView getLogin(@ModelAttribute Usuario usuario) {
         return new ModelAndView("login");
     }
-    
-    
+
     @RequestMapping("acceder")
     public ModelAndView acceder(@ModelAttribute Usuario usuario) {
         return new ModelAndView("home");
+    }
+
+    @RequestMapping("pedido")
+    public ModelAndView accederPedido() {
+        return new ModelAndView("pedido");
+    }
+
+    @RequestMapping("recojo")
+    public ModelAndView accederRecojo() {
+        return new ModelAndView("recojo");
     }
 
 }
