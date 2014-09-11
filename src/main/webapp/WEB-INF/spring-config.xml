@@ -15,7 +15,7 @@
        xmlns:p="http://www.springframework.org/schema/p" >
     
     <context:component-scan base-package="com.ransa.controller" />
-    <mvc:annotation-driven />    
+      
         
     <bean
         class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -34,6 +34,8 @@
                 <value>WEB-INF/tiles-definition.xml</value>
             </list>
         </property>
-    </bean>          
-                
+    </bean>     
+    
+    <mvc:resources mapping="/resources/**" location="/resources/"/>
+    <mvc:annotation-driven />         
 </beans>
