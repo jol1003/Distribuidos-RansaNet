@@ -22,12 +22,11 @@
                             <div class="form-group">
                                 <label for="InputName">Área</label>
                                 <div class="input-group">
-                                    <select class="form-control">
-                                        <option>Seleccione</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
+                                    <select class="form-control" name="area" var>
+                                    <c:forEach items="${areas}" var="area">
+                                        <option value="${area.key}" ${month.key == selectedMonth ? 'selected' : ''}>${month.value}</option>
+                                    </c:forEach>
+
                                     </select>
                                     <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
                                 </div>

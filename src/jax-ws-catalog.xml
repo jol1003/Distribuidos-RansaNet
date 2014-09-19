@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://visitasadm.inpe.gob.pe/ServicioRansaNetWs/services/UsuarioRansaServiceImpl?wsdl" uri="wsdl/visitasadm.inpe.gob.pe/ServicioRansaNetWs/services/UsuarioRansaServiceImpl.wsdl"/>
+</catalog>
