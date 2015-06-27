@@ -39,6 +39,7 @@ public class LoginController {
         if (!indicadorLogin) {
             return new ModelAndView("login");
         } else {
+            System.out.println("hola");
             return new ModelAndView("home");
         }
 
